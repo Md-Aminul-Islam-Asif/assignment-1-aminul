@@ -23,6 +23,7 @@
       padding: 8px 10px;
       font-size: 20px;
       font-weight: 600;
+      margin-bottom: 50px;
 }
 
 .header-h1 {
@@ -62,13 +63,14 @@
       font-size: 20px;
       font-weight: 600;
       padding: 15px 20px;
+      margin-bottom: 50px;
 }
 
 .header-sec-div {
+
       background-image: url(../assets/Hero-bg.png);
       background-repeat: no-repeat;
       background-size: 100%;
-
 
 }
 
@@ -87,8 +89,6 @@
 
 .m-f-s-p {
       color: rgb(13, 19, 33);
-      font-family: Azeret Mono;
-      font-size: 16px;
       font-weight: 400;
       line-height: 26px;
       letter-spacing: 0%;
@@ -104,4 +104,101 @@
       padding: 80px 97px 80px 97px;
       margin-left: 100px;
       margin-right: 100px;
+}
+
+.h1-for-main-fast {
+      color: rgb(13, 19, 33);
+      font-family: Azeret Mono;
+      font-size: 32px;
+      font-weight: 800;
+      line-height: 37px;
+      letter-spacing: 0%;
+      text-align: center;
+}
+
+.m-f-s-p {
+      color: rgb(13, 19, 33);
+      font-family: Azeret Mono;
+      font-size: 16px;
+      font-weight: 400;
+      line-height: 26px;
+      letter-spacing: 0%;
+      text-align: center;
+}
+
+.main-fast-section {
+      margin-bottom: 50px;
+}
+
+.part-1 {
+      gap: 170px;
+      display: flex;
+      padding: 50px;
+      border-radius: 16px;
+      background: linear-gradient(90.00deg, rgb(255, 255, 255), rgba(255, 255, 255, 0) 100%);
+      padding-bottom: 0%;
+}
+
+.pard-1d-s {
+      color: rgba(13, 19, 33, 0.7);
+
+      letter-spacing: 0%;
+      text-align: left;
+}
+
+.btn-for-part {
+
+      padding: 12px 20px 12px 20px;
+      box-sizing: border-box;
+      border: 1px solid rgb(13, 19, 33);
+      opacity: 0.7;
+      color: rgb(13, 19, 33);
+      font-weight: 600;
+      line-height: 23px;
+      letter-spacing: 0%;
+      text-align: center;
+      margin-bottom: 25px;
+}
+
+.part-2 {
+      margin-top: 25px;
+      gap: 170px;
+      display: flex;
+      padding: 50px;
+      border-radius: 16px;
+      background: linear-gradient(90.00deg, rgb(255, 255, 255), rgba(255, 255, 255, 0) 100%);
+      padding-bottom: 0%;
+}
+
+.part-3 {
+      margin-top: 25px;
+      gap: 170px;
+      display: flex;
+      padding: 50px;
+      border-radius: 16px;
+      background: linear-gradient(90.00deg, rgb(255, 255, 255), rgba(255, 255, 255, 0) 100%);
+      padding-bottom: 0%;
+}
+
+.part-h {
+      color: rgba(13, 19, 33, 0.7);
+      font-size: 24px;
+      font-weight: 700;
+      line-height: 36px;
+      letter-spacing: 0%;
+      text-align: left;
+}
+
+.part-p {
+      color: rgb(13, 19, 33);
+
+      font-size: 16px;
+      font-weight: 400;
+      line-height: 26px;
+      letter-spacing: 0%;
+      text-align: left;
+}
+/* for margin */
+.part-m{
+     margin: 0px 32px;
 }
