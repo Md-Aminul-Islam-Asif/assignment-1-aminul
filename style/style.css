@@ -12,8 +12,10 @@
       margin-top: 50px;
       margin-left: 120px;
       margin-right: 120px;
+      /* align-items: center; */
       justify-content: space-between;
       margin-bottom: 50px;
+
 }
 
 .header-btn {
@@ -125,8 +127,19 @@
       line-height: 26px;
       letter-spacing: 0%;
       text-align: center;
+
 }
 
+#link {
+      color: #fff;
+      font-size: 18px;
+      font-weight: bold;
+      line-height: 12px;
+      text-align: center;
+      text-decoration: none;
+}
+
+/* main style */
 .main-fast-section {
       margin-bottom: 50px;
 }
@@ -240,8 +253,8 @@
       box-sizing: border-box;
       border: 1px solid rgba(13, 19, 33, 0.2);
       border-radius: 16px;
-      margin-left: 180px; 
-      margin-bottom: 150px; 
+      margin-left: 180px;
+      margin-bottom: 150px;
 
 }
 
@@ -262,6 +275,20 @@
       padding: 40px;
       border-radius: 16px;
       background: rgba(255, 76, 30, 0.05);
+}
+
+.skill-2 {
+      padding: 40px;
+      border-radius: 16px;
+      background: rgba(0, 76, 232, 0.05);
+      ;
+}
+
+.skill-3 {
+      padding: 40px;
+      border-radius: 16px;
+
+      background: rgba(255, 223, 0, 0.05);
 }
 
 .skill-title {
@@ -346,7 +373,7 @@ a {
       line-height: 36px;
       letter-spacing: 0%;
       margin-bottom: 25px;
-     
+
 
 }
 
@@ -358,7 +385,7 @@ a {
       letter-spacing: 0%;
       text-align: center;
       margin-bottom: 25px;
-      
+
 
 }
 
@@ -405,5 +432,23 @@ textarea {
       display: flex;
       justify-content: center;
       margin-bottom: 25px;
-      
+
+}
+
+#footer {
+      display: flex;
+      justify-content: space-between;
+      margin: 50px 50px 50px 50px;
+      text-align: center;
+      font-size: 14px;
+      font-weight: 600;
+      border-radius: 16px;
+      background: rgba(13, 19, 33, 0.03);
+      padding: 32px 150px;
+}
+
+span {
+      gap: 35px;
+
+
 }
