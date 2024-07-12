@@ -71,6 +71,7 @@
       background-image: url(../assets/Hero-bg.png);
       background-repeat: no-repeat;
       background-size: 100%;
+      text-align: center;
 
 }
 
@@ -198,7 +199,211 @@
       letter-spacing: 0%;
       text-align: left;
 }
+
 /* for margin */
-.part-m{
-     margin: 0px 32px;
+.part-m {
+      margin: 0px 32px;
+}
+
+/* inspiration-style */
+
+.inspiration-h {
+      color: rgb(13, 19, 33);
+      font-family: Azeret Mono;
+      font-size: 32px;
+      font-weight: 800;
+      line-height: 37px;
+      letter-spacing: 0%;
+      text-align: center;
+      margin-top: 100px;
+}
+
+.inspiration-p {
+      color: rgb(13, 19, 33);
+      font-family: Azeret Mono;
+      font-size: 16px;
+      font-weight: 400;
+      line-height: 26px;
+      letter-spacing: 0%;
+      text-align: center;
+}
+
+#iframe {
+      width: 1140px;
+      height: 614px;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      border: 16px;
+      padding: 32px;
+      box-sizing: border-box;
+      border: 1px solid rgba(13, 19, 33, 0.2);
+      border-radius: 16px;
+      margin-left: 180px; 
+      margin-bottom: 150px; 
+
+}
+
+.inspiration-div {
+      margin-bottom: 80px;
+}
+
+/* skills style */
+.skills-container {
+      display: flex;
+      gap: 50px;
+      width: 1095px;
+      margin-left: 200px;
+      margin-bottom: 75px;
+}
+
+.skill {
+      padding: 40px;
+      border-radius: 16px;
+      background: rgba(255, 76, 30, 0.05);
+}
+
+.skill-title {
+      color: rgb(13, 19, 33);
+      font-family: Azeret Mono;
+      font-size: 24px;
+      font-weight: 800;
+      line-height: 36px;
+      letter-spacing: 0%;
+      text-align: left;
+}
+
+.skill-description {
+      color: rgb(13, 19, 33);
+      font-family: Azeret Mono;
+      font-size: 16px;
+      font-weight: 400;
+      line-height: 26px;
+      letter-spacing: 0%;
+      text-align: left;
+}
+
+a {
+      color: rgb(13, 19, 33);
+      font-family: Azeret Mono;
+      font-size: 16px;
+      font-weight: 700;
+      line-height: 19px;
+      letter-spacing: 0%;
+      text-align: left;
+      text-decoration-line: underline;
+}
+
+.inputbox {
+      max-width: 1140px;
+      background-image: url(../assets/handshake.jpg);
+      background-size: 100%;
+      width: 1140px;
+      height: 320px;
+      left: 150px;
+      right: 150px;
+      top: 4752px;
+      bottom: 179px;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center padding: 64px 48px 64px 48px;
+      box-sizing: border-box;
+      border: 1px solid rgba(13, 19, 33, 0.15);
+      border-radius: 8px;
+      margin-left: 180px;
+      text-align: center;
+
+}
+
+.inbox {
+
+
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      padding: 0px;
+      flex: none;
+      order: 0;
+      flex-grow: 0;
+      margin: 24px 0px;
+}
+
+.in-h {
+
+
+      text-align: center;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      padding: 0px;
+      flex: none;
+      margin: 16px 0px;
+      color: rgb(255, 255, 255);
+      font-size: 32px;
+      font-weight: 700;
+      line-height: 36px;
+      letter-spacing: 0%;
+      margin-bottom: 25px;
+     
+
+}
+
+.in-p {
+      color: rgb(255, 255, 255);
+      font-size: 16px;
+      font-weight: 400;
+      line-height: 26px;
+      letter-spacing: 0%;
+      text-align: center;
+      margin-bottom: 25px;
+      
+
+}
+
+textarea {
+      box-sizing: border-box;
+      border: 1px solid rgba(13, 19, 33, 0.15);
+      border-radius: 8px;
+      background: rgb(255, 255, 255);
+      background: rgb(255, 255, 255);
+      padding: 19px 20px 19px 20px;
+      color: rgba(13, 19, 33, 0.4);
+      font-family: Azeret Mono;
+      font-size: 16px;
+      font-weight: 400;
+      line-height: 19px;
+      letter-spacing: 0%;
+      text-align: center;
+}
+
+#last-btn {
+      position: static;
+      width: 120px;
+      height: 58px;
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+      align-items: center;
+      padding: 12px 15px 12px 15px;
+      flex: none;
+      order: 1;
+      flex-grow: 0;
+      margin: 0px 16px;
+      color: rgb(13, 19, 33);
+      font-size: 20px;
+      font-weight: 500;
+      line-height: 23px;
+      letter-spacing: 0%;
+      text-align: center;
+      border-radius: 8px;
+      background: rgb(255, 255, 255);
+}
+
+#p2 {
+      display: flex;
+      justify-content: center;
+      margin-bottom: 25px;
+      
 }
